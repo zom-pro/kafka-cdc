@@ -1,0 +1,13 @@
+  {
+    "name": "src-table",
+    "config": {
+        "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+        "database.hostname": "postgres",
+        "database.port": "5432",
+        "database.user": "kafkasandbox",
+        "database.password": "kafkasandboxpass",
+        "database.dbname": "kafkasandboxdb",
+        "database.server.name": "postgres",
+        "table.include.list": "public.data"
+    }
+  }
